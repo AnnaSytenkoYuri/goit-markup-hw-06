@@ -38,13 +38,33 @@
             <li class="list-item"> <a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a> </li>
         </ul>
     </address>
+    <button class="burger-btn" type="button">
+        <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+        </svg>
+    </button>
+    </div>
+    <div class="mobile-menu is-open">
+        <div class="container mobile-menu-container">
+            <button class="mobile-menu-close" type="button"><svg width="8" height="8" class="mobile-menu-close-svg">
+                <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use></svg></button>
+            <nav class="mobile-menu-nav">
+                <ul class="mobile-menu-nav-list">
+                    <li class="mobile-menu-nav-item"><a class="navigation-link current" href="./index.html">Studio</a></li>
+                    <li class="mobile-menu-nav-item"><a class="navigation-link" href="">Portfolio</a></li>
+                    <li class="mobile-menu-nav-item"><a class="navigation-link" href="">Contacts</a></li>
+                </ul>
+            </nav>
+            <address>Address</address>
+            <div>Soclink</div>
+        </div>
     </div> 
    </header>
 
     <main>
         
 <!-- <Section-1> -->
-    <section class="section-one">
+    <section class="hidden section-one">
         <div class="container container-section-one">
         <h1 class="title-one">
             Effective Solutions
@@ -55,7 +75,7 @@
     </section>
 
 <!-- section-2 -->
-    <section class="section-two">
+    <section class="hidden section-two">
         <div class="container container-section-two">
         <h2 class="visually-hidden">Benefits</h2>
         <ul class="section-two-list">
@@ -109,7 +129,7 @@
     </section>
 
 <!-- section-3 -->
-<section class="section-three">
+<section class="hidden section-three">
     <div class="container container-section-three">
         <h2 class="title-two">Our Team</h2>
         <ul class="container-section-three-list">
@@ -282,7 +302,7 @@
 </section>
 
 <!-- section-4 -->
- <section class="section-four">
+ <section class="hidden section-four">
     <div class="container container-section-four">
     <h2 class="title-two">Our Portfolio</h2>
     <ul class="container-section-four-list">
@@ -368,7 +388,7 @@
  </section>
     </main> 
 
-   <footer class="foot">
+   <footer class="hidden foot">
     <div class="container footer-container">
         <div class="container-foot-first-child">
             <a class= "logotype logotype-footer" href="./index.html">Web<span class="logstudio-f">Studio</span></a>
@@ -398,7 +418,7 @@
     
     </div>
    </footer>
-<div class="backdrop is-open">
+<div class="hidden backdrop is-open">
     <div class="modal">
         <button class="modal-close-button" type="button"><svg width="8" height="8" class="modal-close-btn-svg">
         <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use></svg></button>
