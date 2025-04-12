@@ -354,7 +354,7 @@ button {
 .section-one {
     background-color: #2e2f42;
     padding: 72px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpeg); 
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/main-img/main-img-mob-min.jpg); 
     max-width: 320px;
     background-repeat: no-repeat;
     background-position: center;
@@ -362,6 +362,14 @@ button {
     margin-left: auto;
     margin-right: auto;
 } 
+
+@media screen and (min-resolution: x2) {
+    .section-one {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
+        rgba(46, 47, 66, 0.7)), 
+        url(../images/main-img/main-img-mob@2x-min.jpg); 
+    }
+}
 
 .container-section-one {
     margin: auto;
@@ -403,7 +411,17 @@ button {
         .section-one {
             padding: 112px 0;
             max-width: 768px;
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
+                rgba(46, 47, 66, 0.7)), 
+                url(../images/main-img/main-img-tab-min.jpg);
         } 
+        @media screen and (min-resolution: x2) {
+            .section-one {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
+                rgba(46, 47, 66, 0.7)), 
+                url(../images/main-img/main-img-tab@2x-min.jpg); 
+            }
+        }
 
         .title-one {
             font-size: 56px; 
@@ -422,8 +440,18 @@ button {
         .section-one {
             padding: 188px 0;
             max-width: 1440px;
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
+            rgba(46, 47, 66, 0.7)), 
+            url(../images/main-img/main-img-desk-min.jpg);
         } 
-        
+
+        @media screen and (min-resolution: x2) {
+            .section-one {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
+                rgba(46, 47, 66, 0.7)), 
+                url(../images/main-img/main-img-desk@2x-min.jpg); 
+            }
+        }
         .title-one {
            font-size: 56px; 
            line-height: 1.07;
